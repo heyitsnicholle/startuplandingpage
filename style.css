@@ -1,0 +1,84 @@
+body,
+html {
+  width: 100%;
+  height: 100%; /*size of the whole html page*/
+  font-family: 'Montserrat', sans-serif;
+  background: url(koi.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.container {
+  display: flex; /*this links back to flexbox where it's responsive to the screen size*/
+  justify-content: center;
+  align-items: center; 
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5em;
+  color:#fff;
+  font-weight: 570
+
+}
+
+h2 {
+  color: rgba(56.1, 50.6, 75.7, 0.7);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 450
+}
+
+.buffer{
+  padding: 40px; /*gap between the elements*/
+
+}
+
+hr {
+    margin: 20px auto;
+    color: ghostwhite;
+    /*border: 1px solid ghostwhite;*/
+    max-width: 100px; 
+    opacity: 0.5;  
+}
+
+/*both classes below are to align button to the center!!!*/
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%; 
+}
+
+.btn{
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-weight: 400;
+}
+
+.btn-xl{ /*change the size*/
+  padding: 1rem 1.5rem; /*sides, and top/bottom*/
+}
+
+.btn-primary{
+  background-color: ghostwhite;
+  border: ghostwhite;
+  
+}
+
+.btn-primary:hover{
+  background-color: #F6D9D6;
+  border: #F6D9D6;
+  padding: 1.2rem 1.8rem; /*not like tutorial (cant get it to work??) but it expands just fine!*/
+}
+
+
